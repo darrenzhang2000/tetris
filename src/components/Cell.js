@@ -6,7 +6,7 @@ import { TETROMINOS } from '../tetrominos'
 @params type the type of tetrominos
 */
  const Cell = ({ type }) => <div>
-     <StyledCell type={'L'} color={TETROMINOS['L'].color}> cell </StyledCell>
+     <StyledCell type={'L'} color={TETROMINOS['L'].color}>  </StyledCell>
  </div>
 
  export default Cell
