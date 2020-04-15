@@ -1,8 +1,8 @@
-import React from 'react'
-import { StyledDisplay } from './styles/StyledDisplay'
+import React from 'react';
+import { StyledDisplay } from './styles/StyledDisplay';
 
-const Display = ({ gameOver, text }) => <div>
-    <StyledDisplay> { text } </StyledDisplay>
-</div>
+const Display = ({ gameOver, text }) => (
+  <StyledDisplay gameOver={gameOver}>{text}</StyledDisplay>
+)
 
-export default Display
+export default Display;
